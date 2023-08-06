@@ -69,7 +69,7 @@ function creatPost(){
     list.innerHTML = list.innerHTML + `
         <div class="post">
             <div id="imgBox">
-            <div id="fBox"><img src="/img/face.png" alt="" id="${i}"></div>
+            <div id="fBox"><img src="/js.prac/img/face.png" alt="" id="${i}"></div>
             </div>
             <div id="textBox">
             <h3 class="date">${date_choose.value}</h3>
