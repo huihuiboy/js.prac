@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body{
+    background-color: #F7FBFC;
+    font-family:"Noto Sans TC";
+    background-image: url(/img/could.png);
+    background-position: center bottom; 
+    background-repeat:no-repeat;
+    /* background-attachment: local; */
+    height: 100vh;
+    
+}
+
+#wrap{
+    /* border: 1px solid red; */
+    height: 55dvh;
+    display: flex;
+}
+
+#inner{
+    width: 95%;
+    /* height: 250px; */
+    margin: auto;
+    vertical-align: middle ;
+    /* padding: 30px; */
+    /* border: 1px solid red; */
+}
+
+#list-wrap{
+    overflow: hidden;
+    /* overflow-x: scroll; */
+    margin-bottom: -20px;
+}
+
+#pageTitle{
+    text-align: center;
+    color: #769FCD;
+}
+
+#list{
+    display: flex;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.post{
+    background-color: #fff;
+    width: 200px;
+    height: 80px;
+    padding: 20px 10px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+#imgBox{
+    width: 30%;
+    height: 80px;
+    float: left;
+    margin: 5px 0 0 0 ;
+}
+#fBox{
+	width: 105px;
+	height: 105px;
+    margin: -25px 0 0 -25px;
+	overflow: hidden;
+	/* position: relative; */
+    transform: scale(0.3);
+}
+#emoji{
+    margin-left: -16px;
+    margin-top: -13px;
+    position: absolute;
+    left: -7px;
+    top: -5px;
+}
+.date, .diary{
+    color: #769FCD;
+    padding: 0;
+    margin: 0;
+}
+
+.date{
+    font-size: 16px;
+}
+.diary{
+    font-size: 20px;
+}
+
+#postArea, #list{
+    margin-top: 80px;
+}
+#inputSheet{
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    display: grid;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 4px 6px #769fcd1b;
+}
+#inputSheet label{
+    padding-bottom: 10px;
+    color: #769FCD;
+}
+#inputSheet input, #inputSheet select, #inputSheet textarea{
+    margin-bottom: 15px;
+    padding: 5px;
+    border-color: #769FCD;
+    border-radius: 10px;
+    box-shadow: none;
+}
+#inputSheet select:focus, #inputSheet select:active{
+    box-shadow: none;
+    border-color: #769FCD;
+    
+}
+#sent{
+    width: 40%;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 0;
+    background-color:#769FCD;
+    color: #fff;
+    cursor: pointer;
+}
+
+#pencil{
+    /* display: block;
+    margin: 0 auto; */
+    width: 80px;
+    margin-top: 300px;
+    cursor: pointer;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    /* transform: scale(0.5); */
+    bottom: 10px;
+}
+
+#inputSheet{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0px;
+    transition: 1s;
+    opacity: 0;
+    /* display: none; */
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+    <link rel="stylesheet" href="/post_style.css">
+</head>
+<body>
+    <div id="wrap"><div id="inner">
+        <div id="title">
+            <h1 id="pageTitle">EMOJI BLOG</h1>
+        </div>
+        <div id="list-wrap">
+        <div id="list">
+            <!-- <div class="post">
+                <div id="imgBox">
+                <div id="fBox"><img src="/img/face.png" alt="" id="emoji"></div>
+                </div>
+                <div id="textBox">
+                <h3 class="date">6 月 12 日</h3>
+                <p class="diary">今天好開心</p>
+                </div>    
+            </div> -->
+        </div></div>
+        <div id="postArea">
+            <div id="inputSheet">
+                <label for="feel">今天心情如何？</label>
+                <select name="feel" id="feel">
+                    <option value="empty"></option>
+                    <option value="happy">開心</option>
+                    <option value="normal">普通</option>
+                    <option value="sad">難過</option>
+                    <option value="angry">生氣</option>
+                </select>
+                <label for="date">今日日期</label>
+                <input id="date_choose" type="date" name="date">
+                <label for="content"></label>
+                <textarea name="content" id="content" cols="30" rows="2"></textarea>
+                <button id="sent">POST IT</button>
+            </div>
+            <img src="/img/pencil.png" alt="write_post" id="pencil">
+        </div>
+    </div></div>
+    <script src="/post_js.js"></script>
+</body>
+</html>
